@@ -9,7 +9,7 @@ class AxionRoot(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("AXION | Ejercicios Python")
+        self.title("Ejercicios Python")
         self.geometry("900x720")
         self.minsize(800, 600)
 
