@@ -27,18 +27,11 @@ class LoginFrame(ctk.CTkFrame):
         accent_bar.pack(fill="x", padx=d.PAD_CARD, pady=(d.PAD_CARD, 0))
 
         title = ctk.CTkLabel(
-            card, text="AXION",
+            card, text="LOGIN",
             font=("Georgia", 36, "bold"),
             text_color=d.TEXT_PRIMARY
         )
-        title.pack(padx=d.PAD_CARD, pady=(16, 4))
-
-        subtitle = ctk.CTkLabel(
-            card, text="[SISTEMAS]",
-            font=d.FONT_MONO,
-            text_color=d.TEXT_MUTED
-        )
-        subtitle.pack(padx=d.PAD_CARD, pady=(0, 24))
+        title.pack(padx=d.PAD_CARD, pady=(16, 24))
 
         sep = ctk.CTkFrame(
             card, fg_color=d.TEXT_PRIMARY,
