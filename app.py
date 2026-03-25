@@ -20,7 +20,7 @@ class MainApp(ctk.CTkFrame):
         header.grid(row=0, column=0, sticky="ew", padx=32, pady=(32, 0))
 
         ctk.CTkLabel(
-            header, text="AXION",
+            header, text="EJERCICIOS",
             font=("Georgia", 42, "bold"),
             text_color=d.TEXT_ON_DARK
         ).pack(anchor="w")
@@ -35,7 +35,7 @@ class MainApp(ctk.CTkFrame):
         accent.pack(side="left", padx=(0, 8))
 
         ctk.CTkLabel(
-            sub_frame, text="[EJERCICIOS PYTHON] → SELECCIONE UN MÓDULO",
+            sub_frame, text="[PYTHON] → SELECCIONE UN MÓDULO",
             font=d.FONT_MONO_SM, text_color=d.TEXT_MUTED
         ).pack(side="left")
 
